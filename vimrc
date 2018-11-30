@@ -64,24 +64,28 @@ let g:airline_solarized_bg='dark'
 set tabstop=4
 set shiftwidth=4
 set expandtab
-syntax on
 set nocompatible
 set number
+set tw=80
 set colorcolumn=81
 set cursorline
 set ruler
+
+syntax on
 set background=dark
 let g:solarized_termtrans = 1
 colorscheme solarized
+
 inoremap jk <ESC>
-set backspace=indent,eol,start " backspace over everything in insert mode
+
+" backspace over everything in insert mode
+set backspace=indent,eol,start
 
 " Make moving between vim tabs easier
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
-set tw=80
 
 " Make Y yank to end of line
 nnoremap Y y$
