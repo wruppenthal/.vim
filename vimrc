@@ -46,7 +46,7 @@ filetype plugin indent on    " required
 set guifont=Inconsolata\ for\ Powerline:h15
 let g:Powerline_symbols = 'fancy'
 set encoding=utf-8
-set t_Co=256
+"set t_Co=256
 set fillchars+=stl:\ ,stlnc:\
 set term=xterm-256color
 set termencoding=utf-8
@@ -55,7 +55,7 @@ set termencoding=utf-8
 "let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'default'
 "set :AirlineTheme solarized
-let g:airline_solarized_bg='dark'
+"let g:airline_solarized_bg='dark'
 
 
 " ------------------------------------------------------------------------------
@@ -73,8 +73,8 @@ set ruler
 
 syntax on
 set background=dark
-let g:solarized_termtrans = 1
-colorscheme solarized
+"let g:solarized_termtrans = 1
+colorscheme dim
 
 inoremap jk <ESC>
 
