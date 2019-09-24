@@ -36,25 +36,11 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
-"source /usr/local/lib/python2.7/site-packages/powerline/bindings/vim/plugin/powerline.vim
-"set laststatus=2
-
-" ------------------------------------------------------------------------------
-" More powerline stuff
-" ------------------------------------------------------------------------------
-set guifont=Inconsolata\ for\ Powerline:h15
-let g:Powerline_symbols = 'fancy'
-set encoding=utf-8
-"set t_Co=256
-set fillchars+=stl:\ ,stlnc:\
-set term=xterm-256color
-set termencoding=utf-8
-
 " Airline
 "let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'default'
-"set :AirlineTheme solarized
-"let g:airline_solarized_bg='dark'
+set AirlineTheme solarized
+let g:airline_solarized_bg='dark'
 
 
 " ------------------------------------------------------------------------------
