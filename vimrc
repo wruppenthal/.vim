@@ -13,9 +13,8 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
-"" Powerline for vim
-"Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
-"
+" Autocomplete
+Plugin 'Valloric/YouCompleteMe'
 
 " Arduino syntax
 Plugin 'sudar/vim-arduino-syntax'
