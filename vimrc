@@ -37,10 +37,7 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 " Airline
-"let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'default'
-set AirlineTheme solarized
-let g:airline_solarized_bg='dark'
 
 
 " ------------------------------------------------------------------------------
