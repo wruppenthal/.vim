@@ -39,6 +39,10 @@ filetype plugin indent on    " required
 " Airline
 let g:airline#extensions#tabline#formatter = 'default'
 
+" YouCompleteMe
+" Close function parameter pop-up window after exiting insert mode
+let g:ycm_autoclose_preview_window_after_insertion = 1
+
 
 " ------------------------------------------------------------------------------
 " My stuff
